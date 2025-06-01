@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de QR Codes ZPL</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="img/bga.png" type="image/png">
+    
+</head>
+<body>
+     
+
+    <img id= "fundo" src="img/fundo.jpg">
+    <img id="logo" src="img/bga.png" alt="bag">
+    
+    <h1>Gerar ZPL QR Codes</h1>
+
+    <label for="op">OP:</label>
+    <input type="text" id="op" required>
+
+    <label for="quantidade">Quantidade de QR Codes:</label>
+    <input type="number" id="quantidade" min="1" required>
+
+    <button onclick="gerarZPL()">Gerar e Baixar</button>
+    <script src="index.js"></script>
+
+
+</body>
+</html>
